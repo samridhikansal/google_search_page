@@ -15,9 +15,33 @@
             <li><a href = "advance.html">Google Advanced Search</a></li>
         </ul>
     </nav>
-    <div class = "form_div">
-        Google Advanced Search
-        <img src="images/logo.png" alt="logo" /> 
+    <div>
+        <h2>Advanced Search</h2>
+        <h3>Find Pages with words...</h3>
+    </div>
+    <div >
+        <div class="row">
+            <label class="label">all these words</label>
+            <input type="text" class="adv_text"/>
+            <div style="margin-left: 2vw;">Type the important words:</div><span>tricolor rat terrier</span>
+        </div>
+        <div class="row">
+            <label class="label">this exact word or phrase</label>
+            <input type="text" class="adv_text"/>
+            <div style="margin-left: 2vw;">this exact word or phrase in quotes
+            </div><span> "rat terrier"</span>
+        </div>
+        <div class="row">
+            <label class="label">any of these words:</label>
+            <input type="text" class="adv_text"/>
+            <div style="margin-left: 2vw;">Type OR between all the words you want:</div><span> miniature OR standard</span>
+        </div >
+        <div class= "row">
+            <label>none of these words</label>
+            <input type="text" class="adv_text"/>
+            <div style="margin-left: 2vw;">Put a minus sign just before words you don't want:  </div><span>-rodent, -"Jack Russell"</span>
+        </div>
+        <button type="submit" class="adv_btn">Advanced Search</button>    
     </div>
 </body>
 </html>

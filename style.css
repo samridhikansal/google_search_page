@@ -1,58 +1,67 @@
-
-body{
-    box-sizing: border-box;
-    height: 100%;
-    width:100%
-}
-
 ul{
     list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
     display: flex;
-    flex-direction: row;
     justify-content: right;
 }
+
 li{
-    margin-left: 10px;
-    
+    margin: 0.5%;
+    font-size: 1.4rem;
 }
-a{
-    list-style-type: none;
-}
-
-
 
 .form_div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
-    width: 100%;
-    height: 100%;
+    height: 80vh;
+}
+.logo{
+     width: 20vw;
+     padding: 2vh
 }
 
 .search_bar{
-    width:60%;
-    padding: auto;
-    max-width: auto;
+    width:40vw;
     border-radius: 20px;
-    
+    height: 4.5vh;
+    padding: 1vh;
+    border-color: gray;
 }
 
-img{
-    border: 2%;
-    margin: 2%;
-    height:auto;
-    width: 400px;
+.form{
+    display: flex;
+    flex-direction: column;
 }
 
 .btn{
-    width:10%;
-    border-bottom:2%;
+    width: 10vw;
+    height: 4vh;
+    margin-top: 2vh;
+    padding: auto;
+    align-self:center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;    
+}
+
+label{
+    width:18%;
     
-    height: 40px;
-    font-size: medium;
+}
+.adv_text{
+    width:35%;
+    height: 4vh;
+    margin: 2vh,1vw,2vh, 1vw;
+}
+
+.adv_btn{
+    display: block;
+    background-color: blue;
+    color: white;
+    width:10vw;
+    height: 5vh;
+    align-self: center;
 }
