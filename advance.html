@@ -19,29 +19,31 @@
         <h2>Advanced Search</h2>
         <h3>Find Pages with words...</h3>
     </div>
-    <div >
+    <form action="https://www.google.ca/search">
+   
         <div class="row">
-            <label class="label">all these words</label>
-            <input type="text" class="adv_text"/>
+            <label  for = "all" class="label">all these words</label>
+            <input type="text"id = "all" class="adv_text" name = "as_q"/>
             <div style="margin-left: 2vw;">Type the important words:</div><span>tricolor rat terrier</span>
         </div>
         <div class="row">
-            <label class="label">this exact word or phrase</label>
-            <input type="text" class="adv_text"/>
+            <label for = "exact" class="label">this exact word or phrase</label>
+            <input type="text" id = "exact" class="adv_text" name = "as_epq"/>
             <div style="margin-left: 2vw;">this exact word or phrase in quotes
             </div><span> "rat terrier"</span>
         </div>
         <div class="row">
-            <label class="label">any of these words:</label>
-            <input type="text" class="adv_text"/>
+            <label for = "any" class="label">any of these words:</label>
+            <input type="text" id=" any" class="adv_text" name = "as_oq"/>
             <div style="margin-left: 2vw;">Type OR between all the words you want:</div><span> miniature OR standard</span>
         </div >
         <div class= "row">
-            <label>none of these words</label>
-            <input type="text" class="adv_text"/>
+            <label for = "any" class="label">none of these words</label>
+            <input type="text" id = "none" class="adv_text" name = "as_eq"/>
             <div style="margin-left: 2vw;">Put a minus sign just before words you don't want:  </div><span>-rodent, -"Jack Russell"</span>
         </div>
-        <button type="submit" class="adv_btn">Advanced Search</button>    
-    </div>
+        <button type="submit" class="adv_btn" value="advanced search">Advanced Search</button>    
+    
+    </form>
 </body>
 </html>
