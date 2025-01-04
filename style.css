@@ -40,12 +40,19 @@ li{
     margin-top: 2vh;
     padding: auto;
     align-self:center;
+    background-color: aliceblue;
+    border: none;
+}
+.btn :hover{
+    border-color: darkgray;
+    color: blue;
 }
 
 .row{
     display: flex;
-    flex-direction: row;    
-}
+    flex-direction: row; 
+}      
+
 
 label{
     width:18%;
@@ -64,4 +71,8 @@ label{
     width:10vw;
     height: 5vh;
     align-self: center;
+}
+
+.margin{
+    margin: 10px;
 }
