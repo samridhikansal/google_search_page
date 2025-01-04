@@ -9,6 +9,9 @@ li{
     font-size: 1.4rem;
 }
 
+a{
+    text-decoration: none;
+}
 .form_div{
     display: flex;
     flex-direction: column;
@@ -75,4 +78,10 @@ label{
 
 .margin{
     margin: 10px;
+}
+
+.adv_btn_div{
+    display: flex;
+    justify-content: center;
+
 }
